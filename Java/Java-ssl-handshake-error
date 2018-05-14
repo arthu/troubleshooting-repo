@@ -16,9 +16,7 @@ This problem comes from a certificate that is either self-signed (a CA did not s
 
 Java -jar InstallCert.jar maven.apache.org:443
 
-2.copy jssecacerts to 
+2.copy jssecacerts to the java security folder
 
 JAVA_HOME\lib\security
 
-
-3.archive cacerts and rename jssecacerts to cacerts
